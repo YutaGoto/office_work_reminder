@@ -1,0 +1,37 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "b76a119174c785bae2e4ec02c1225a71476fb579e3a7686e01205bd07ed8cb88"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "slack-bolt": {
+            "hashes": [
+                "sha256:1befc17225a2371bda204bd7c8d8035cd42da72ffc6a3a6603578d51d837bfab",
+                "sha256:8fa308a55bc2f8b143fb5f2746dd77e0de343556baaa0b69b7e30f1538c32569"
+            ],
+            "index": "pypi",
+            "version": "==1.13.0"
+        },
+        "slack-sdk": {
+            "hashes": [
+                "sha256:128f3bb0b5b91454a3d5f140a61f3db370a0e1b50ffe0a8d9e9ebe0e894faed7",
+                "sha256:e1fa26786169176e707676decc287fd9d3d547bbc43c0a1a4f99eb373b07da94"
+            ],
+            "markers": "python_full_version >= '3.6.0'",
+            "version": "==3.15.2"
+        }
+    },
+    "develop": {}
+}
