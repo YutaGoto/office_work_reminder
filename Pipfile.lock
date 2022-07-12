@@ -18,19 +18,19 @@
     "default": {
         "slack-bolt": {
             "hashes": [
-                "sha256:2b3e41249616925325e3788b224440d8a70757885fd364d59eacc71db798a7ee",
-                "sha256:86acccfb668ae57d553126cfb46ab694893e71aa7d3f78af597464d4148b4fcb"
+                "sha256:6d8fe5d4d4625947f8019274a186cb1cc7f47dd8af13e0c46d208848dd7bbf81",
+                "sha256:ac210bbd3fa3d5aadae32baae8b29c60384bedcef55648afdaab24ef1e5856ba"
             ],
             "index": "pypi",
-            "version": "==1.14.0"
+            "version": "==1.14.1"
         },
         "slack-sdk": {
             "hashes": [
-                "sha256:4427fc4495e8f7a559708114e23e177defb175dc8adc7a0502a5cd4487c01ba9",
-                "sha256:db9a98d9c75b6fa1cc927f2009dc974e6fde19a76b355d54a42fd21cd38ebd67"
+                "sha256:60302e32d48db6b4ea5453d92f23ecf3f7b843f799f61eaf271315264d7cb281",
+                "sha256:70d5a55a5d52ba7128d5347ed995425e1f83e729667ab296035bcf6c1b13a049"
             ],
-            "markers": "python_full_version >= '3.6.0'",
-            "version": "==3.16.2"
+            "markers": "python_version >= '3.6'",
+            "version": "==3.17.2"
         }
     },
     "develop": {}
