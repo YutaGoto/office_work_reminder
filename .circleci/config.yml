@@ -27,9 +27,9 @@ jobs:
 
 workflows:
   version: 2
-    tests:
-      jobs:
-        - lint
+  tests:
+    jobs:
+      - lint
   workflow:
     triggers:
       - schedule:
