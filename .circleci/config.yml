@@ -11,6 +11,7 @@ jobs:
       - python/install-packages:
           args: --dev
           pkg-manager: pipenv
+      - run: "pipenv install --dev typing_extensions"
       - run:
           name: "run pylint"
           command: pipenv run pylint app.py
