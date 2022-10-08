@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  python: circleci/python@2.0.3
+  python: circleci/python@2.1.1
 
 jobs:
   lint:
@@ -13,7 +13,7 @@ jobs:
           pkg-manager: pipenv
       - run:
           name: "run pylint"
-          command: pipenv run pylint *.py
+          command: pipenv run pylint app.py
   create-reminder:
     executor: python/default
     steps:
