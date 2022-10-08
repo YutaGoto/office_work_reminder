@@ -4,6 +4,16 @@ orbs:
   python: circleci/python@2.0.3
 
 jobs:
+  lint:
+    executor: python/default
+    steps:
+      - checkout
+      - python/install-packages:
+          args: --dev
+          pkg-manager: pipenv
+      - run:
+          name: "run pylint"
+          command: pipenv run pylint *.py
   create-reminder:
     executor: python/default
     steps:
@@ -16,6 +26,10 @@ jobs:
           command: pipenv run python app.py
 
 workflows:
+  version: 2
+    tests:
+      jobs:
+        - lint
   workflow:
     triggers:
       - schedule:
