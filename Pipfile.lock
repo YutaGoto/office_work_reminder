@@ -18,11 +18,11 @@
     "default": {
         "slack-bolt": {
             "hashes": [
-                "sha256:583a319734ee7de2fca758605c92253de7b3c9ef72d0c38251126c055af0d1c1",
-                "sha256:8ead9331d7733a1ed364c4c57cf7a10fcb8c4be509ddba778c04e9efee9883cf"
+                "sha256:18d60c99de0ff786a302dd872b2c0a63e46b6922b7ce2e352372effc321d0bdd",
+                "sha256:e234b3305ea55ce8f2e1274bc0c0a2a79531ad501db8d8f70a42881d5001c0ad"
             ],
             "index": "pypi",
-            "version": "==1.15.1"
+            "version": "==1.15.2"
         },
         "slack-sdk": {
             "hashes": [
@@ -36,11 +36,11 @@
     "develop": {
         "astroid": {
             "hashes": [
-                "sha256:81f870105d892e73bf535da77a8261aa5bde838fa4ed12bb2f435291a098c581",
-                "sha256:997e0c735df60d4a4caff27080a3afc51f9bdd693d3572a4a0b7090b645c36c5"
+                "sha256:1c00a14f5a3ed0339d38d2e2e5b74ea2591df5861c0936bb292b84ccf3a78d83",
+                "sha256:72702205200b2a638358369d90c222d74ebc376787af8fb2f7f2a86f7b5cc85f"
             ],
             "markers": "python_full_version >= '3.7.2'",
-            "version": "==2.12.10"
+            "version": "==2.12.12"
         },
         "dill": {
             "hashes": [
