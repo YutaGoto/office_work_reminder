@@ -29,18 +29,18 @@
                 "sha256:5db78a3ed3c58b3b0a2bdbe40bac43c7b00edcbc12ff6a7778ac5cbe3a3a2899",
                 "sha256:a0bafb9e53ffbc408a8b5a42443525aac2c0c7347223d9373dd9d41cf90c9343"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.19.1"
         }
     },
     "develop": {
         "astroid": {
             "hashes": [
-                "sha256:81f870105d892e73bf535da77a8261aa5bde838fa4ed12bb2f435291a098c581",
-                "sha256:997e0c735df60d4a4caff27080a3afc51f9bdd693d3572a4a0b7090b645c36c5"
+                "sha256:1c00a14f5a3ed0339d38d2e2e5b74ea2591df5861c0936bb292b84ccf3a78d83",
+                "sha256:72702205200b2a638358369d90c222d74ebc376787af8fb2f7f2a86f7b5cc85f"
             ],
             "markers": "python_full_version >= '3.7.2'",
-            "version": "==2.12.10"
+            "version": "==2.12.12"
         },
         "dill": {
             "hashes": [
@@ -119,11 +119,11 @@
         },
         "pylint": {
             "hashes": [
-                "sha256:5fdfd44af182866999e6123139d265334267339f29961f00c89783155eacc60b",
-                "sha256:7f6aad1d8d50807f7bc64f89ac75256a9baf8e6ed491cc9bc65592bc3f462cf1"
+                "sha256:3b120505e5af1d06a5ad76b55d8660d44bf0f2fc3c59c2bdd94e39188ee3a4df",
+                "sha256:c2108037eb074334d9e874dc3c783752cc03d0796c88c9a9af282d0f161a1004"
             ],
             "index": "pypi",
-            "version": "==2.15.3"
+            "version": "==2.15.5"
         },
         "tomli": {
             "hashes": [
