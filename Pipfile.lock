@@ -18,29 +18,29 @@
     "default": {
         "slack-bolt": {
             "hashes": [
-                "sha256:a0aa6b09d94ca5bd7be2284abcb3d19e90ccf6c69c2bc61df15d7a750065b331",
-                "sha256:f80811c55e332b58adecf13209f3758ca2a76e66ce1d54d9b5031df0f98ffbdd"
+                "sha256:1d7b7a829c43ec4763d69650ab5df6a48cea961ba9ce3bbf13539d9ca96bfd0d",
+                "sha256:726b49fbfc7012845a1655a9c89ad68c171d4b68fc3965fc663d716334e4212c"
             ],
             "index": "pypi",
-            "version": "==1.17.1"
+            "version": "==1.17.2"
         },
         "slack-sdk": {
             "hashes": [
-                "sha256:276358fcddaec49895bea50174e4bd7f83d53b74b917de03ca511e145c6e75d2",
-                "sha256:451f2394f6d3696d08c9b290844332aab6e8e39473327fc3f7d19794c7eb441d"
+                "sha256:cb74aa764ae32cd61971baa745d8bdf50ffea4ad06e4a0a2ab1e879ae6918496",
+                "sha256:fd04ca4aae3071fbd6b284b11ef39b6c72d687b1a2118f40dbcba9921da07d62"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==3.21.1"
+            "version": "==3.21.2"
         }
     },
     "develop": {
         "astroid": {
             "hashes": [
-                "sha256:6e61b85c891ec53b07471aec5878f4ac6446a41e590ede0f2ce095f39f7d49dd",
-                "sha256:dea89d9f99f491c66ac9c04ebddf91e4acf8bd711722175fe6245c0725cc19bb"
+                "sha256:44224ad27c54d770233751315fa7f74c46fa3ee0fab7beef1065f99f09897efe",
+                "sha256:f11e74658da0f2a14a8d19776a8647900870a63de71db83713a8e77a6af52662"
             ],
             "markers": "python_full_version >= '3.7.2'",
-            "version": "==2.15.2"
+            "version": "==2.15.3"
         },
         "dill": {
             "hashes": [
