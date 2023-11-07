@@ -11,9 +11,9 @@ jobs:
       - python/install-packages:
           args: --dev
           pkg-manager: pipenv
-      - run: "pipenv install --dev typing_extensions"
+      - run: pipenv install --dev typing_extensions
       - run:
-          name: "run pylint"
+          name: run pylint
           command: pipenv run pylint app.py
   create-reminder:
     executor: python/default
@@ -23,11 +23,10 @@ jobs:
           args: --dev
           pkg-manager: pipenv
       - run:
-          name: "create reminder"
+          name: create reminder
           command: pipenv run python app.py
 
 workflows:
-  version: 2
   tests:
     jobs:
       - lint
